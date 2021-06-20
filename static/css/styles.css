@@ -2,6 +2,8 @@
 
 body{
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
     
 .partone{
@@ -31,4 +33,21 @@ body{
 .parttwo{
     text-align: center;
     font-size: 15px;
+}
+.ourservices{
+    text-align: center;
+    padding-top: 30px;
+}
+#design-icon{
+    text-align: left;
+}
+.portfolio h2{
+    align-items: center;
+}
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
