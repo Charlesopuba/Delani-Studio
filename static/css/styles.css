@@ -11,9 +11,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.containerabout h2{
+.about{
     text-align: center;
+    font-size: 15px;
 }
+
+
 .services{
     text-align: center;
     background-image: url(../images/b2.jpg);
