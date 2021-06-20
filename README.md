@@ -18,8 +18,11 @@
 
  ### Contact
  email me at :charlesopuba@gmail.com
+ ###  License 
+ The project is underMIT license 
 
  ### Setup instuctions
+ - Clone the program from the online repo at [          ]
  
  
 
