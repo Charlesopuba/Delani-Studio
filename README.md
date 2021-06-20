@@ -19,7 +19,7 @@
  ### Contact
  email me at :charlesopuba@gmail.com
  ###  License 
- The project is underMIT license 
+ The project is under MIT license 
 
  ### Setup instuctions
  - Clone the program from the online repo at [          ]
