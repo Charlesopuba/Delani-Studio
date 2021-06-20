@@ -7,50 +7,149 @@
     <title>Delani</title>
     <link rel="stylesheet" href="static/css/styles.css">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <script src="static/js/main.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="partone">
-        <img src="static/images/logo.png" alt="delani logo">
-        <h1>WELCOME <br>TO DELANI STUDIO</h1>
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <div class="mouse"></div>
-    <a href="#about-us"><img src="static/images/mouse_click.png" alt=" mouse image" id="mouse"></a> 
-  </div>
-  <div class="about">
-    <h2>ABOUT US</h2>
-    <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated , interactive and agile.</p>
-    <p>Our approach unifies design, development and product managent to create exceptional products.</p> 
-    <p>We start each project by understanding your business goals, the users needs and the product requirements.</p>
-    <p>Then we help translate them into active and elegant solutions.</p>
-  </div>
+    <div class="container-fluid" id="head">
+        <img src="static/images/logo.png" id="logo">
+        <h1>WELCOME </br> TO DELANI STUDIO</h1>
+        <p><span>Amazing people are making amazing designs in a fun envirnment</span></p>
+        <img src="static/images/mouse_click.png" id="click">
     </div>
-    <div class="services section">
-        <h2>SERVICES</h2>
-        <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
-      <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
-      <p>based on your requirements, we can provide a complete offering or just the piece you need. </p>
-    </div>
-</div>
-<div class="what-we-do text-center">
-    <h1>WHAT WE DO</h1>
-    <div class="col-md-12">
-        <div class="row">
-            <figure class="col-md-4">
-                <img src="static/images/design_icon.png" alt="design-icon" class="service">
-                <figcaption id="destxt" class="b-text">DESIGN</figcaption>
-            </figure>
-            <figure class="col-md-4">
-                <img src="static/images/dev_icon.png" alt="dev-icon" class="service-icons dev">
-                <figcaption id="devtext" class="b-text">DEVELOPMENT</figcaption>
-            </figure>
-            <figure class="col-md-4">
-                <img src="static/images/product_icon.png" alt="product-icon" class="service-icons pro">
-                <figcaption id="protext" class="b-text">PRODUCT DESIGN</figcaption>
-            </figure>
+    <div class="container">
+        <!-- about us -->
+        <div class="land" id="about">
+            <div class=" text-center">
+                <h1>ABOUT US</h1>
+                <p class="fontsize">When you work with us, you are part of a team of committed collaborators. All
+                    aspects
+                    of our software development process are intergrated,interactive<br> and agile.</p>
+                <p class="fontsize">Our approach unifies design,development and product management to create
+                    exceptional
+                    products.<br>We start each project by understanding your business goals, the user's need and the
+                    product requirements<br>Then we help translate them into effective and elegant solutions.
+                </p>
+            </div>
         </div>
     </div>
-</div>
+    <!--services-->
+    <div class="m " id="service">
+        <div class="row">
+            <div class="col text-center">
+                <h1>SERVICES</h1>
+                <P>Before we sign a contract or write a line of code, our team will spend the necessary time needed to
+                    understand your product vision<br></P>
+                <p>The outcome of this scoping session is proposal or high-level statement of work.<br>based on your
+                    requirements,we can provide a complete offering or just the pieces you need.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container whatWeDo ">
+        <h1 class="text-center what ">What we do</h1>
+        <div class="row text-center">
+            <div class="col-md-4 main">
+                <img src="static/images/design_icon.png" class="show img-fluid">
+                <h5><strong>DESIGN</strong></h5>
+                <div class="hideMe">
+                    <p> Our design practice offers a full range of services including brand strategy,interaction and
+                        visual design and user experience testing.</p>
+                    <p>Throughout yuor project,our designers create and implement visual design and workflows,solicit
+                        user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+            </div>
+            <div class="col-md-4 main">
+                <img src="static/images/dev_icon.png" class="show img-fluid">
+                <h5><strong>DEVELOPMENT</strong></h5>
+                <div class="hideMe">
+                    <P>All engineers are fluent in the latest enterprise, mobile and web development technologies. They
+                        collaborate with your team to write, and improve code on a daily basis, using proven practices
+                        such as test-driven development and pair programming. </P>
+                </div>
+            </div>
+            <div class="col-md-4 main">
+                <img src="static/images/product_icon.png" class="show img-fluid">
+                <h5><strong>PRODUCT MANAGEMENT</strong></h5>
+                <div class="hideMe">
+                    <p>Planning and development is iterative. Because we are constantly coding and testing, the products
+                        we build are always ready to go live. This iterative process allows for changes as business
+                        requirements evolve.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="portfolio">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="static/images/work4.jpg" class="card-img-top" alt="">
+                     <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
+                    </div>
+                </div>
+                <div class="card">
+                     <img src="static/images/work3.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Ontario <br> security</p>
+                    </div>
+                </div>
+                <div class="card">
+                        <img src="static/images/work2.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
+                    </div>
+                </div>
+                <div class="card">
+                        <img src="static/images/work1.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Weather <br>Informer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+
+                <div class="card">
+                    <img src="static/images/work5.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Lets <br>Chat</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/work6.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Mobile <br>Application</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/work7.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Mock-up <br>Kenya</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/work8.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Giraffe <br>Restaurant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h1 class="text-center con">CONTACT US</h1>
+        <form action="" class="form-cont" id="myForm">
+            <input type="text" name="" id="name" placeholder="Enter Name" required>
+            <input type="email" name="" id="email" placeholder="Enter Email" required>
+            <textarea name="" id="mess" cols="30" rows="10" placeholder="Enter Message" required></textarea><br>
+            <button type="submit " class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+    
+           
 </body>
 </html>
