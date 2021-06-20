@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    background-color: white;
+}
     
 .partone{
     text-align: center;
@@ -6,4 +10,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.containerabout h2{
+    text-align: center;
+}
+.services{
+    text-align: center;
+    background-image: url(../images/b2.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+
+}
+.parttwo{
+    text-align: center;
+    
 }
