@@ -23,7 +23,6 @@ $(document).ready(function(){
     alert(' Hi ' + name + ' We have received your message. Thank you for reaching out to us.');  
   });
 });
-  
 
 $(document).ready(function()
 {
