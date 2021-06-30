@@ -1,5 +1,5 @@
 ### Project name
- - Delani studio
+ - Delani Studio
  ### Description
  -This project is for one of the most recognizable music record studio stable;Delani studio.
  
