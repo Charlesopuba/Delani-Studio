@@ -13,7 +13,6 @@ $(".whatwedo3").click(function(){
 });
 });
 
-
 // form
 $(document).ready(function(){
   $("form" ).submit(function( event ) 
