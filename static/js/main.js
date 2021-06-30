@@ -1,29 +1,34 @@
 $(document).ready(function(){
-    
-    $('.main').click(function () {
-        $(this).children('.hideMe').slideToggle(1200);
-        $(this).children('.show').toggle(1500);
-      });
-
-    $('.card').hover(function(event){
-      $(".card").hover(function () {
-        $(this).children(".card-1").fadeToggle('fast', "linear");
-      });
-      });
-      event.preventDefault();
-    
-
-    $('form#myForm').submit(function(){
-      var name = $('#name').val();
-      var pass = $('#email').val();
-      var mess = $('#mess').val();
-      alert("Hi " +name+ " we have received your message and we will get in touch. Thank you for contacting us.");
-    });
-    
-    $("button").on('click', function(){
-      $('form').each(function(){
-        this.reset();
-      });
-    
+  $(".whatwedo1").click(function(){
+      $(".content1").toggle();
+      $(".first").toggle();
+  });
+  $(".whatwedo2").click(function(){
+    $(".content2").toggle();
+    $(".second").toggle();
+});
+$(".whatwedo3").click(function(){
+  $(".content3").toggle();
+  $(".third").toggle();
 });
 });
+
+
+// form
+$(document).ready(function(){
+  $("form" ).submit(function( event ) 
+  {  
+    event.preventDefault(); 
+    var name = $( "input:first" ).val();
+
+    alert(' Hi ' + name + ' We have received your message. Thank you for reaching out to us.');  
+  });
+});
+  
+
+$(document).ready(function()
+{
+  $( ".port" ).mouseenter(function() 
+  {    var closestImage = $(this).closest(".port");   
+       closestImage.next(".works").slideDown(100);  })  
+   .mouseleave(function() {    $(".works" ).hide();});});
